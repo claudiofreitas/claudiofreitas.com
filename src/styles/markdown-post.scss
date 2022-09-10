@@ -1,0 +1,11 @@
+.markdown-post {
+  h1 {
+    @apply text-xl font-semibold mb-3;
+  }
+
+  h2 {
+    @apply text-lg font-medium mb-3;
+  }
+
+  @apply text-rose-400;
+}

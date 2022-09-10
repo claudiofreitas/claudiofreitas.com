@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/markdown-post.scss';
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
