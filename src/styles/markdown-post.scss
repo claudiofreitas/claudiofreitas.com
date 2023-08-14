@@ -7,5 +7,22 @@
     @apply text-lg font-medium mb-3;
   }
 
-  @apply text-rose-400;
+  p {
+    // @apply mb-5 text-rose-100;
+    @apply mb-5 text-white;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  pre, code {
+    @apply border-white bg-violet-900;
+  }
+
+  pre {
+    @apply mb-5;
+  }
+
+  // @apply text-rose-400;
 }

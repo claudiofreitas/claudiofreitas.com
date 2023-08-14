@@ -12,10 +12,10 @@ interface Props {
 
 const Blog = ({ content, title, writtenAt }: Props) => {
   return (
-    <div className="mx-auto max-w-[500px] h-screen p-2">
+    <div className="mx-auto max-w-[500px] min-h-screen p-2 bg-black">
       <h1 className="text-4xl text-orange-400 pb-4">Blog</h1>
       <h2 className="text-xl font-semibold mb-3 text-rose-400">{title}</h2>
-      <p>{new Date(writtenAt).toISOString()}</p>
+      {/*<p>{new Date(writtenAt).toISOString()}</p>*/}
       <div
         className="markdown-post"
         dangerouslySetInnerHTML={{ __html: content }}
